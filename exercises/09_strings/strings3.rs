@@ -15,6 +15,13 @@ fn replace_me(input: &str) -> String {
 
 fn main() {
     // You can optionally experiment here.
+    let trimmed = trim_me("  Hello!  ");
+    let composed = compose_me("Hello");
+    let replaced = replace_me("I think cars are cool");
+
+    println!("Trimmed: '{}'", trimmed);
+    println!("Composed: '{}'", composed);
+    println!("Replaced: '{}'", replaced);
 }
 
 #[cfg(test)]
